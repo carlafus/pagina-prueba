@@ -1,0 +1,219 @@
+body {
+    background: #FFFFFF;
+
+    /* font-family: "Poppins", sans-serif; */
+    font-family: "Poppins",
+        sans-serif
+}
+
+
+
+.container {
+    padding: 30px;
+}
+
+
+
+header h1 {
+    color: #0a030a;
+    margin-bottom: 30px;
+    font-family: "Poppins",
+        sans-serif
+}
+
+/* parrafo */
+section {
+    margin-bottom: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+
+}
+
+section h4 {
+    color: #DC23D9;
+    margin-bottom: 30px;
+    font-family: "Poppins",
+        sans-serif
+}
+
+
+section h2 {
+    color: #DC23D9;
+    margin-bottom: 30px;
+    font-family: "Poppins",
+        sans-serif
+}
+
+.section-title {
+    font-size: 20px;
+}
+
+
+section p {
+    font-size: 15px;
+    font-family: "Poppins",
+        sans-serif
+}
+
+
+
+.no-bullets {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+
+
+
+
+/* .poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+ } */
+
+header .nav {
+    min-height: 70px;
+    overflow: hidden;
+    background: #f4f3f3;
+}
+
+
+header .logo h2,
+header .logo p {
+    font-size: 16px;
+    display: inline-block;
+}
+
+
+header .logo .icono {
+    color: #DC23D9;
+
+}
+
+header .menu .c1,
+.c2,
+.c3 {
+    color: #DC23D9;
+
+}
+
+header .menu .c1:hover,
+.c2:hover,
+.c3:hover {
+    color: black;
+
+}
+
+.contact span {
+    font-size: 24px;
+    /* Cambia este valor según el tamaño deseado */
+    color: #DC23D9;
+    /* Cambia este valor por el color deseado */
+}
+
+
+/* Estilo para el título */
+
+
+/* main */
+/* portfolio-proyecto */
+/* .portafolio {
+    border-top: 5px solid #050305;
+    background: #fcf9f9;
+
+}
+ */
+
+.portafolio .titulo {
+    color: #DC23D9;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+
+.portafolio .galeria .contenedor-imagen {
+    max-height: 180px;
+    overflow: hidden;
+}
+
+.portafolio .galeria .contenedor-imagen a {
+    background: #bc80bb;
+    display: inline-block;
+}
+
+.portafolio .galeria .contenedor-imagen:hover img {
+    opacity: .6;
+}
+
+/* ventana modal */
+.modal-dialog {
+    max-width: 1000px;
+}
+
+
+.portafolio .galeria .contenedor-imagen:nth-child(1) {
+    order: 1;
+}
+
+.portafolio .galeria .contenedor-imagen:nth-child(2) {
+    order: 2;
+}
+
+.portafolio .galeria .contenedor-imagen:nth-child(3) {
+    order: 4;
+}
+
+.portafolio .galeria .contenedor-imagen:nth-child(4) {
+    order: 4;
+}
+
+.portafolio .galeria .contenedor-imagen:nth-child(5) {
+    order: 5;
+}
+
+.portafolio .galeria .contenedor-imagen:nth-child(6) {
+    order: 7;
+}
+
+.portafolio .galeria .contenedor-imagen:nth-child(7) {
+    order: 6;
+}
+
+.servicios {
+    color: #DC23D9;
+    ;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+/* Estilo para el texto "Servicios" */
+.servicios {
+    color: #DC23D9;
+    /* Color fucsia */
+}
+
+h1 {
+    text-align: center;
+    margin: 35px 0 20px 0 !important;
+    color: #DC23D9;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
