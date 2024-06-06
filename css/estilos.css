@@ -254,7 +254,15 @@ h2 {
 .carousel-control-next {
     filter: invert(1);
 
+
 }
+
+.no-hover:hover {
+    background-color: transparent;
+    color: inherit;
+
+}
+
 
 .full-height {
     height: 100vh;
