@@ -10,6 +10,7 @@ imagenes.forEach((imagen) => {
 });
 
 
+
 //copy to clipboard
 function copiarAlPortapapeles(elementId) {
     var elemento = document.getElementById(elementId);
