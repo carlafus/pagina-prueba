@@ -360,3 +360,13 @@ button:hover {
 .footer a:hover {
     color: rgb(0, 0, 0);
 }
+
+
+.texto-h1-titulo {
+    text-align: center;
+    margin: 35px 0 20px 0 !important;
+    color: #DC23D9;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
