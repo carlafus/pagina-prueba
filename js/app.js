@@ -8,3 +8,17 @@ imagenes.forEach((imagen) => {
     });
 
 });
+
+
+//copy to clipboard
+function copiarAlPortapapeles(elementId) {
+    var elemento = document.getElementById(elementId);
+    var seleccion = window.getSelection();
+    var rango = document.createRange();
+    rango.selectNodeContents(elemento);
+    seleccion.removeAllRanges();
+    seleccion.addRange(rango);
+    document.execCommand('copy');
+    seleccion.removeAllRanges();
+    //alert('Texto copiado al portapapeles: ' + elemento.innerText);
+}

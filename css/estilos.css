@@ -10,11 +10,15 @@ body {
 
 .container {
     padding: 30px;
+    color: #0a030a;
+    margin-bottom: px;
+    font-family: "Poppins",
+        sans-serif
 }
 
 
 
-header h1 {
+header h2 {
     color: #0a030a;
     margin-bottom: 30px;
     font-family: "Poppins",
@@ -31,13 +35,20 @@ section {
 
 section h4 {
     color: #DC23D9;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     font-family: "Poppins",
         sans-serif
 }
 
 
-section h2 {
+.section h2 {
+    color: #DC23D9;
+    margin-bottom: 30px;
+    font-family: "Poppins",
+        sans-serif
+}
+
+.section h4 {
     color: #DC23D9;
     margin-bottom: 30px;
     font-family: "Poppins",
@@ -61,10 +72,6 @@ section p {
     list-style-type: none;
     padding-left: 0;
 }
-
-
-
-
 
 /* .poppins-light {
     font-family: "Poppins", sans-serif;
@@ -125,19 +132,8 @@ header .menu .c1:hover,
 }
 
 
-/* Estilo para el título */
 
-
-/* main */
-/* portfolio-proyecto */
-/* .portafolio {
-    border-top: 5px solid #050305;
-    background: #fcf9f9;
-
-}
- */
-
-.portafolio .titulo {
+.portafolio {
     color: #DC23D9;
     font-family: "Poppins", sans-serif;
     font-weight: 300;
@@ -209,6 +205,15 @@ header .menu .c1:hover,
     /* Color fucsia */
 }
 
+.contacto {
+    color: #DC23D9;
+    ;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
+}
+
 h1 {
     text-align: center;
     margin: 35px 0 20px 0 !important;
@@ -216,4 +221,102 @@ h1 {
     font-family: "Poppins", sans-serif;
     font-weight: 300;
     font-style: normal;
+}
+
+
+h2 {
+    text-align: center;
+    margin: 35px 0 20px 0 !important;
+    color: #DC23D9;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+/*carousel size*/
+
+.carousel {
+    width: 100%;
+    /* Ancho */
+    margin: auto;
+    /* Centra el carrusel */
+}
+
+.carousel-item img {
+    height: 500px;
+    /* Altura*/
+    object-fit: cover;
+
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    filter: invert(1);
+
+}
+
+.full-height {
+    height: 100vh;
+}
+
+#contact-form {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+hr {
+    width: 90%;
+    /* Ajusta el ancho según sea necesario */
+    margin: 0 auto;
+
+    /* Ajusta el ancho según sea necesario */
+}
+
+/* contacto botones*/
+
+
+.container1 {
+    margin-top: 20px;
+}
+
+.col8 {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: #DC23D9;
+    border: none;
+    color: white;
+    padding: 1px 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #03771c;
+}
+
+#telefono1 {
+    font-size: 24px;
+    /* Ajusta el tamaño de la fuente del número de teléfono aquí */
+}
+
+#telefono2 {
+    font-size: 24px;
+    /* Ajusta el tamaño de la fuente del número de teléfono aquí */
+}
+
+#email {
+    font-size: 21px;
+    /* Ajusta el tamaño de la fuente del número de teléfono aquí */
 }
