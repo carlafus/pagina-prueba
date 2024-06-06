@@ -328,3 +328,16 @@ button:hover {
     font-size: 21px;
     /* Ajusta el tamaño de la fuente del número de teléfono aquí */
 }
+
+.linkedin-btn-hover {
+    background-color: #0077B5;
+    border: none;
+
+}
+
+
+.linkedin-btn-hover:hover {
+
+    background-color: #0077B5;
+
+}
