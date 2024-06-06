@@ -9,6 +9,10 @@
         content="Estudio de arquitectura dedicado a crear espacios innovadores y funcionales. Transformamos tus ideas en realidad. Descubre nuestro trabajo.">
     <!-- title -->
     <title>Arquitectura Obholz:Proyectos Innovadores.</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- favicon -->
     <link rel="icon" type="image/png" sizes="16x16" href="./fotos/favicon-32x32.png">
     <!-- etiquetas mejora SEO -->
@@ -22,6 +26,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/bootstrap.min.css" class="rel">
     <link rel="stylesheet" href="./css/estilos.css">
+    <!-- iconos de redes -->
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" />
 
 </head>
 
@@ -30,122 +38,126 @@
 
     <!-- header -->
     <header class="container my-1">
-        <div class="nav row g-0 justify-content-between">
-            <!-- logo -->
-            <div class="logo col-auto d-flex align-items-center ps-5">
-                <h2 class="fw-bold text-uppercase mb-0">Cristian Obholz</h2>
-                <div class="icono">
+        <!-- <div class="nav row g-0 justify-content-between"> -->
+        <!-- logo -->
+        <!-- <div class="logo col-auto d-flex align-items-center ps-5"> -->
+        <!-- <h2 class="fw-bold text-uppercase mb-0">Cristian Obholz</h2> -->
+        <!-- <div class="icono">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dot"
                         viewBox="0 0 16 16">
-                        <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3" />
-                    </svg>
-                    <p class="mb-0">Arquitecto</p>
-                </div>
+                        <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3" /> -->
+        </svg>
+        <!-- <p class="mb-0">Arquitecto</p> -->
+        </div>
 
-                <!-- fin logo -->
-            </div>
-            <!-- NAV -->
-
-            <nav class="menu col-auto d-flex align-items-center ps-4  ">
-                <a href="#" class=" c1 px-4 d-flex align-items-center text-center text-decoration-none">
-                    <span>Quienes somos</span>
-                    <div class="icono">
-                    </div>
-                </a>
-
-            </nav>
-
-
-            <nav class="menu col-auto d-flex align-items-center ps-4  ">
-                <a href="#" class=" col-12 col-lg c2 px-4 d-flex align-items-center text-center text-decoration-none">
-                    <span>Proyectos y obras</span>
-                    <div class="icono">
-                    </div>
-                </a>
-
-            </nav>
-
-            <nav class="menu col-auto d-flex align-items-center ps-4  ">
-                <a href="#" class=" c2 px-4 d-flex align-items-center text-center text-decoration-none">
-                    <span>Servicios</span>
-                    <div class="icono">
-                    </div>
-                </a>
-
-            </nav>
-
-
-            <nav class="menu col-auto d-flex align-items-center ps-4  ">
-                <a href="#" class=" c3 px-4 d-flex align-items-center text-center text-decoration-none">
-                    <span>Contacto</span>
-                    <div class="icono">
-                    </div>
-                </a>
-
-            </nav>
+        <!-- fin logo -->
+        </div>
+        <!-- NAV -->
+        <nav>
+        </nav>
 
 
 
 
 
-            </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="header">
+            <a class="navbar-brand " href="#">Cristian Obholz</a>
 
-            <!-- Carrusel -->
-            <div class="row slider">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="row row-justify-content-start">
+                    <div class="class col-12 col-sm-6"></div>
+                    <ul class="navbar-nav ">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#header">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#QuienesSomos">Quienes Somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#ProyectoYobras">Proyectos y Obras</a>
+                        </li>
 
-                <div class="col">
-                    <div class="carousel slide" data-bs-ride="carousel" id="slider">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img class="d-block w-100" src="./fotos/c1.jpg" alt="">
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="./fotos/c2.jpg" alt="">
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="./fotos/c3.jpg" alt="">
-                            </div>
-                        </div>
-                        <!-- boton 1 -->
-                        <button class="carousel-control-prev no-hover" type="button" data-bs-target="#slider"
-                            data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon " aria-hidden="true"></span>
-                            <span class="visually-hidden">anterior</span>
-                        </button>
-                        <!-- boton 1 -->
-                        <button class="carousel-control-next  no-hover" type="button" data-bs-target="#slider"
-                            data-bs-slide="next">
-                            <span class="carousel-control-next-icon " aria-hidden="true"></span>
-                            <span class="visually-hidden">siguiente</span>
-                        </button>
-                        <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#slider" data-bs-slide-to="0" class="active"
-                                aria-label="Slideshow1">
-                            </button>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#servicios">Servicios</a>
+                        </li>
 
-                            <button type="button" data-bs-target="#slider" data-bs-slide-to="1" aria-label="Slideshow2">
-
-                                <button type="button" data-bs-target="#slider" data-bs-slide-to="2"
-                                    aria-label="Slideshow3">
-                                </button>
-                            </button>
-                            <!-- fin header -->
-                        </div>
-
-                    </div>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacto">Contacto </a>
+                        </li>
 
 
-
-
+                    </ul>
                 </div>
             </div>
+        </nav>
+        </div>
+        </nav>
+
+
+
+
+
+
+
+        <!-- Carrusel -->
+        <div class="row slider">
+
+            <div class="col">
+                <div class="carousel slide" data-bs-ride="carousel" id="slider">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="./fotos/c1.jpg" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="./fotos/c2.jpg" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="./fotos/c3.jpg" alt="">
+                        </div>
+                    </div>
+                    <!-- boton 1 -->
+                    <button class="carousel-control-prev no-hover" type="button" data-bs-target="#slider"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+                        <span class="visually-hidden">anterior</span>
+                    </button>
+                    <!-- boton 1 -->
+                    <button class="carousel-control-next  no-hover" type="button" data-bs-target="#slider"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon " aria-hidden="true"></span>
+                        <span class="visually-hidden">siguiente</span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#slider" data-bs-slide-to="0" class="active"
+                            aria-label="Slideshow1">
+                        </button>
+
+                        <button type="button" data-bs-target="#slider" data-bs-slide-to="1" aria-label="Slideshow2">
+
+                            <button type="button" data-bs-target="#slider" data-bs-slide-to="2" aria-label="Slideshow3">
+                            </button>
+                        </button>
+                        <!-- fin header -->
+                    </div>
+
+                </div>
+
+
+
+
+            </div>
+        </div>
     </header>
     <hr>
     <main>
 
         <!--    quienes somos? -->
         <h2>¿Quiénes somos?</h2>
-        <div class="container g-0 justify-content-end">
+        <div class="container qs g-0 justify-content-end" id="QuienesSomos">
             <div class="row justify-content-center align-items-center">
                 <div class="col-12 col-lg-6 ">
                     <header>
@@ -177,7 +189,8 @@
                                     <li>-Eficiencia en costos</li>
                                     <br>
                                     <!-- boton linkedin -->
-                                    <a class="btn btn-primary linkedin-btn-hover" href="http://www.linkedin.com"
+                                    <a class="btn btn-primary linkedin-btn-hover"
+                                        href="https://ar.linkedin.com/in/cristian-norberto-obholz-7474b1160"
                                         role="button">Linkedin</a>
 
 
@@ -194,7 +207,7 @@
         <div class="container">
             <!-- portfolio -->
 
-            <div class="row portafolio g-0 py-3 mb-5">
+            <div class="row portafolio g-0 py-3 mb-5" id="ProyectoYobras">
 
                 <div class="col">
                     <div class="row contact">
@@ -206,27 +219,27 @@
                 </div>
 
                 <div class="row galeria">
-                    <div class="contenedor-imagen mb-4 col-12 col-md-12 col-lg-4 ">
+                    <div class="contenedor-imagen mb-4 col-12 col-md-12 col-lg-4 col-xl-4 ">
                         <a href="#" data-bs-toggle="modal" data-bs-target="#modal-galeria">
                             <!-- imagen 1 -->
                             <img src="./fotos/c6.jpg" alt="foto1" class="d-block w-100">
                         </a>
                     </div>
                     <!-- imagen 2 -->
-                    <div class="contenedor-imagen mb-4 col-12 col-md-12 col-lg-8">
+                    <div class="contenedor-imagen mb-4 col-12 col-md-12 col-lg-8 ">
                         <a href="#" data-bs-toggle="modal" data-bs-target="#modal-galeria">
                             <img src="./fotos/c5.jpg" alt="foto1" class="d-block w-100">
                         </a>
                     </div>
                     <!-- imagen 3 -->
-                    <div class="contenedor-imagen mb-4 col-12 col-md-12 col-lg-4">
+                    <div class="contenedor-imagen mb-4 col-12 col-md-12 col-lg-4 ">
                         <a href="#" data-bs-toggle="modal" data-bs-target="#modal-galeria">
                             <img src="./fotos/c4.jpg" alt="foto1" class="d-block w-100">
                         </a>
                     </div>
 
                     <!-- imagen 4 -->
-                    <div class="contenedor-imagen mb-4 col-12 col-md-12 col-lg-4">
+                    <div class="contenedor-imagen mb-4 col-12 col-md-12 col-lg-4  ">
                         <a href="#" data-bs-toggle="modal" data-bs-target="#modal-galeria">
                             <img src="./fotos/c3.jpg" alt="foto1" class="d-block w-100">
                         </a>
@@ -235,7 +248,7 @@
 
 
                     <!-- imagen 5  -->
-                    <div class="contenedor-imagen  mb-4 col-12 col-md-12 col-lg-4 ">
+                    <div class="contenedor-imagen  mb-4 col-12 col-md-12 col-lg-4   ">
                         <a href="#" data-bs-toggle="modal" data-bs-target="#modal-galeria">
                             <img src="./fotos/c2.jpg" alt="foto1" class="d-block w-100">
                         </a>
@@ -243,14 +256,14 @@
 
 
                     <!-- imagen 6 -->
-                    <div class="contenedor-imagen mb-4 col-12 col-md-12 col-lg-4">
+                    <div class="contenedor-imagen mb-4 col-12 col-md-12 col-lg-4 ">
                         <a href="#" data-bs-toggle="modal" data-bs-target="#modal-galeria">
                             <img src="./fotos/c1.jpg" alt="foto1" class="d-block w-100">
                         </a>
                     </div>
 
                     <!-- imagen 7 -->
-                    <div class="contenedor-imagen mb-4 col-12 col-md-12 col-lg-8">
+                    <div class="contenedor-imagen mb-4 col-12 col-md-12 col-lg-8 ">
                         <a href="#" data-bs-toggle="modal" data-bs-target="#modal-galeria">
                             <img src="./fotos/c4.jpg" alt="foto1" class="d-block w-100">
                         </a>
@@ -282,61 +295,61 @@
         </div>
         <hr>
         <!-- servicios -->
-        <div class="container py-7 py-custom text-center">
-            <div class="row">
-                <h2 class="mb-4 py-5" id="servicios"><span class="servicios">Servicios</span></h2>
-                <div class="col-12 col-md-6 col-lg-4 d-flex">
-                    <div
-                        class="card border-black mb-4 flex-grow-1 d-flex flex-column justify-content-center align-items-center p-5">
-                        <img src="./fotos/icon1.png" class="card-img-top" alt="..." style="width: 50px;">
-                        <div class="card-body">
-                            <h5 class="card-title">Consultoría pre-compra</h5>
-                            <p class="card-text">Antes de tomar decisiones importantes como la compra de una
-                                propiedad,
-                                es fundamental contar con asesoramiento experto. Nuestro estudio te ofrece análisis
-                                detallados sobre aspectos clave como el potencial de inversión, las posibilidades de
-                                reforma y la optimización del espacio, brindándote la información necesaria para
-                                tomar
-                                la mejor decisión.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-md-6 col-lg-4 d-flex">
-                    <div
-                        class="card border-black mb-4 flex-grow-1 d-flex flex-column justify-content-center align-items-center p-5">
-                        <img src="./fotos/icon3.png" class="card-img-top" alt="..." style="width: 50px;">
-                        <div class="card-body">
-                            <h5 class="card-title">Proyecto y planificación de la obra</h5>
-                            <p class="card-text">Nos encargamos de realizar las mediciones y analizar el sitio y su
-                                entorno, elaborar los planos y documentación ejecutiva, y gestionar
-                                los trámites municipales, tanto en la Ciudad Autónoma de Buenos
-                                Aires como en la provincia de Buenos Aires. Somos profesionales
-                                matriculados en el Colegio de Arquitectos de la Provincia de Buenos
-                                Aires (CAPBA) y en el Consejo Profesional de Arquitectura y Urbanismo
-                                (CPAU)</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-md-6 col-lg-4 d-flex">
-                    <div
-                        class="card border-black mb-4 flex-grow-1 d-flex flex-column justify-content-center align-items-center p-5">
-                        <img src="./fotos/icon2.png" class="card-img-top" alt="..." style="width: 50px;">
-                        <div class="card-body">
-                            <h5 class="card-title">Supervisión de obra</h5>
-                            <p class="card-text">Después de la aprobación del diseño definitivo, comienza la
-                                asesoría a
-                                los especialistas que participarán en cada etapa del proyecto y en la ejecución de
-                                la
-                                renovación. Nos comprometemos a supervisar, controlar y coordinar a todo el equipo
-                                técnico, garantizando la calidad del trabajo a través de visitas regulares al sitio
-                                derow align-items-center
-                                construcción.</p>
-                        </div>
+        <div class="container py-7 py-custom text-center" id="servicios>
+            <div class=" row">
+            <h2 class="mb-4 py-5" id="servicios"><span class="servicios">Servicios</span></h2>
+            <div class="col-12 col-md-6 col-lg-4 d-flex">
+                <div
+                    class="card border-black mb-4 flex-grow-1 d-flex flex-column justify-content-center align-items-center p-5">
+                    <img src="./fotos/icon1.png" class="card-img-top" alt="..." style="width: 50px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Consultoría pre-compra</h5>
+                        <p class="card-text">Antes de tomar decisiones importantes como la compra de una
+                            propiedad,
+                            es fundamental contar con asesoramiento experto. Nuestro estudio te ofrece análisis
+                            detallados sobre aspectos clave como el potencial de inversión, las posibilidades de
+                            reforma y la optimización del espacio, brindándote la información necesaria para
+                            tomar
+                            la mejor decisión.</p>
                     </div>
                 </div>
             </div>
+
+            <div class="col-12 col-md-6 col-lg-4 d-flex">
+                <div
+                    class="card border-black mb-4 flex-grow-1 d-flex flex-column justify-content-center align-items-center p-5">
+                    <img src="./fotos/icon3.png" class="card-img-top" alt="..." style="width: 50px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Proyecto y planificación de la obra</h5>
+                        <p class="card-text">Nos encargamos de realizar las mediciones y analizar el sitio y su
+                            entorno, elaborar los planos y documentación ejecutiva, y gestionar
+                            los trámites municipales, tanto en la Ciudad Autónoma de Buenos
+                            Aires como en la provincia de Buenos Aires. Somos profesionales
+                            matriculados en el Colegio de Arquitectos de la Provincia de Buenos
+                            Aires (CAPBA) y en el Consejo Profesional de Arquitectura y Urbanismo
+                            (CPAU)</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 d-flex">
+                <div
+                    class="card border-black mb-4 flex-grow-1 d-flex flex-column justify-content-center align-items-center p-5">
+                    <img src="./fotos/icon2.png" class="card-img-top" alt="..." style="width: 50px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Supervisión de obra</h5>
+                        <p class="card-text">Después de la aprobación del diseño definitivo, comienza la
+                            asesoría a
+                            los especialistas que participarán en cada etapa del proyecto y en la ejecución de
+                            la
+                            renovación. Nos comprometemos a supervisar, controlar y coordinar a todo el equipo
+                            técnico, garantizando la calidad del trabajo a través de visitas regulares al sitio
+                            derow align-items-center
+                            construcción.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
         </div>
         </div> <!-- servicios fin -->
 
@@ -346,97 +359,105 @@
         <!-- titulo contacto -->
         <hr>
         <div class="container py-7 py-custom text-center">
-            <div class="row">
+            <div class="row justify-content-center">
                 <h2 class="mb-4 py-5" id="contacto"><span class="contacto">Contacto</span></h2>
-                <div class="col-12 col-md-6 col-lg-4 d-flex">
-                    <div> <!-- Aquí sigue el resto de tu código -->
 
+                <div> <!-- Aquí sigue el resto de tu código -->
+                    <div class="col8 boton-copia">
+                        <br>
+                        <br>
+                        <strong>Telefono alternativo:<br></strong>
 
-                        <!-- contacto titulo-- -->
-
-
-
+                        <span id="telefono1"> 1154563342</span>
+                        <br>
+                        <button onclick="copiarAlPortapapeles('telefono1')" i class="far fa-copy"></i> Copy!
+                        </button>
                     </div>
                 </div>
 
 
                 <!-- contacto 3 items -->
 
-                <div class="container1 text-center">
-                    <div class="row justify-content-center">
-
-                        <div class="col8">
-
-                            <strong>Telefono Contacto:<br></strong>
-
-                            <span id="telefono1">1154563342</span>
-                            <br>
-                            <button onclick="copiarAlPortapapeles('telefono1')">Copy!📋</button>
 
 
-                        </div>
-                    </div>
-                    <div class="row justify-content-center">
-                        <div class="col8">
-                            <br>
-                            <br>
-                            <strong>Telefono alternativo:<br></strong>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col8 boton-copia">
+                    <br>
+                    <br>
+                    <strong>Telefono alternativo:<br></strong>
 
-                            <span id="telefono2">1157499983</span>
-                            <br>
-                            <button onclick="copiarAlPortapapeles('telefono2')">Copy!📋</button>
-                        </div>
-                    </div>
-                    <div class="row justify-content-center">
-                        <div class="col8">
-                            <br>
-                            <br>
-                            <strong>Email:<br></strong>
-                            <span id="email">cristian@obholz.com.ar</span>
-                            <br>
-                            <button onclick="copiarAlPortapapeles('email')">Copy!📋</button>
+                    <span id="telefono2"> 1157499983</span>
+                    <br>
+                    <button onclick="copiarAlPortapapeles('telefono2')" i class="far fa-copy"></i> Copy!
 
-                        </div>
-                    </div>
+                    </button>
+
                 </div>
-                <br>
-                <div class="container g-0 px-6 ">
-                    <div class="row justify-content-center ">
-                        <div class="col-12 ">
+            </div>
+            <div class="row justify-content-center">
+                <div class="col8 boton-copia">
+                    <br>
+                    <br>
+                    <strong>Email:<br></strong>
+                    <span id="email">cristian@obholz.com.ar</span>
+                    <br>
+                    <button onclick="copiarAlPortapapeles('email')" i class="far fa-copy"></i> Copy!
+
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="container g-0 px-6 ">
+            <div class="row justify-content-center ">
+                <div class="col-12 ">
 
 
-                            <!-- <section>
+                    <!-- <section>
                                 <h2 class="section-title text-start">Formulario de contacto</h2>
                             </section> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+
+            <form target="_blank" action="https://formsubmit.co/your@email.com" method="POST">
+                <div class="form-group">
+                    <div class="form-row">
+                        <div class="col">
+                            <input type="text" name="name" class="form-control" placeholder="Nombre y apellido"
+                                required>
+                        </div>
+                        <div class="col">
+                            <br>
+                            <input type="email" name="email" class="form-control" placeholder="Email " required>
                         </div>
                     </div>
                 </div>
+                <div class="form-group">
 
-                <div class="container">
+                    <textarea placeholder="Mensaje" class="form-control" name="message" rows="10" required></textarea>
+                </div>
+                <br>
+                <button type="submit" class="btn btn-lg btn-dark btn-block ">Enviar</button>
+            </form>
 
-                    <form target="_blank" action="https://formsubmit.co/your@email.com" method="POST">
-                        <div class="form-group">
-                            <div class="form-row">
-                                <div class="col">
-                                    <input type="text" name="name" class="form-control" placeholder="Nombre y apellido"
-                                        required>
-                                </div>
-                                <div class="col">
-                                    <br>
-                                    <input type="email" name="email" class="form-control" placeholder="Email " required>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <br>
-                            <textarea placeholder="Mensaje" class="form-control" name="message" rows="10"
-                                required></textarea>
-                        </div>
-                        <br>
-                        <button type="submit" class="btn btn-lg btn-dark btn-block ">Enviar</button>
-                    </form>
+            <!-- redes-->
 
-                    <!-- redes-->
+            <br>
+            <footer class="footer">
+                <div class="container-fluid text-center">
+                    <a href="https://www.instagram.com/arq.obholz/"><i class="fa fa-instagram"></i></a>
+                    <a href="https://ar.linkedin.com/in/cristian-norberto-obholz-7474b1160"><i
+                            class="fa fa-linkedin"></i></a>
+                    <a href="mailto:cristian@obholz.com.ar"><i class="fa fa-envelope"></i></a>
+
+                </div>
+            </footer>
+
+
+
 
 
 
