@@ -316,19 +316,19 @@ button:hover {
 
 #telefono1 {
     font-size: 24px;
-    /* Ajusta el tamaño de la fuente del número de teléfono aquí */
 }
 
 #telefono2 {
     font-size: 24px;
-    /* Ajusta el tamaño de la fuente del número de teléfono aquí */
+
 }
 
 #email {
     font-size: 21px;
-    /* Ajusta el tamaño de la fuente del número de teléfono aquí */
+
 }
 
+/* boton de linkedin */
 .linkedin-btn-hover {
     background-color: #0077B5;
     border: none;
