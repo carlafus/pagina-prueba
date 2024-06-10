@@ -253,3 +253,29 @@ button:hover {
     color: #010101;
     font-family: "Poppins", sans-serif;
 }
+
+
+/* Boton del formulario enviar */
+
+.btn-rosa {
+    background-color: #DC23D9;
+    color: #fff;
+
+    border-color: #DC23D9;
+
+}
+
+.btn-rosa:hover {
+    background-color: #DC23D9;
+    border-color: #DC23D9;
+
+}
+
+.cuadradocont {
+
+    padding: 1px;
+}
+
+.container form {
+    margin-top: -40px;
+}
