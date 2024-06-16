@@ -1,6 +1,11 @@
 const imagenes = document.querySelectorAll('.galeria .contenedor-imagen');
 const imagenModal = document.getElementById('imagen-modal');
 
+// Copias Contactos
+// const telefonoPrincipal = document.getElementById("telefono-principal");
+// const botonTelefonoPrincipal = document.getElementById("boton-telefono-principal");
+
+
 imagenes.forEach((imagen) => {
     imagen.addEventListener('click', () => {
         const ruta = imagen.querySelector('img').src;
@@ -28,8 +33,13 @@ function copiarAlPortapapeles(elementId) {
 
 //formulario de contacto
 
-const $form = document.querySelector('#form')
-$form.addEventListener('submit', handleSubmit)
+const form = document.getElementById('formulario-contacto');
+const confirmacionMensaje = document.getElementById("confirmacion-form");
+const modalConfirmacion = document.getElementById('modal-contacto');
+const bootstrapModal = new bootstrap.Modal(modalConfirmacion);
+const mensajeModalContacto = document.getElementById("mensaje-modal-contacto");
+
+form.addEventListener('submit', handleSubmit);
 
 async function handleSubmit(event) {
     event.preventDefault()
@@ -42,7 +52,10 @@ async function handleSubmit(event) {
         }
     })
     if (response.ok) {
-        this.reset()
-
+        mensajeModalContacto.textContent = "Gracias por su Mensaje. Le responderemos a la brevedad.";
+    } else {
+        mensajeModalContacto.textContent = "Hubo un problema al enviar su mensaje. Intente nuevamente mas tarde.";
     }
+    this.reset();
+    bootstrapModal.show();
 }

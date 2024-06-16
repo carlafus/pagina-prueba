@@ -44,28 +44,39 @@ section h2,
 .poppins-light {
     font-family: "Poppins", sans-serif;
     font-weight: 300;
-    font-style: normal;
+    font-style: bold;
 }
 
 header .nav {
     min-height: 70px;
     overflow: hidden;
-    background: #f4f3f3;
+    background: #f7f4f4;
     font-family: "Poppins", sans-serif;
+    font-size: 17px;
 }
 
 header .logo h2,
 header .logo p {
-    font-size: 16px;
+    font-size: 18px;
     display: inline-block;
 }
 
 header .logo .icono {
     color: #DC23D9;
+    font-family: "Poppins", sans-serif;
 }
 
-header .menu .c1,
-header .menu .c2,
+header .menu .c1 {
+    background: #DC23D9;
+    font-family: "Poppins", sans-serif;
+}
+
+header .menu .c2 {
+    background: #DC23D9;
+}
+
+
+
 header .menu .c3 {
     color: #DC23D9;
     font-family: "Poppins", sans-serif;
@@ -100,12 +111,32 @@ header .menu .c3:hover {
     display: inline-block;
 }
 
+.portafolio .galeria .imagen-borde {
+    padding-right: 0;
+}
+
+@media (max-width: 992px) {
+    .portafolio .galeria .imagen-borde {
+        padding-right: 0.75rem;
+        /* margin-right: 0.75rem; */
+    }
+
+    .portafolio .galeria .contenedor-imagen {
+        margin-left: 0.75rem;
+        margin-right: -0.75rem;
+    }
+
+    .portafolio .galeria .contenedor-imagen {
+        width: 97%;
+    }
+}
+
 .portafolio .galeria .contenedor-imagen:hover img {
     opacity: 0.6;
 }
 
 .modal-dialog {
-    max-width: 1000px;
+    max-width: 1000px !important;
 }
 
 .portafolio .galeria .contenedor-imagen:nth-child(1) {
@@ -150,10 +181,9 @@ header .menu .c3:hover {
     font-style: normal;
 }
 
-h1,
-h2 {
+.titulos {
     text-align: center;
-    margin: 35px 0 20px 0 !important;
+    /* margin: 35px 0 20px 0 !important; */
     color: #DC23D9;
     font-family: "Poppins", sans-serif;
 }
@@ -168,8 +198,7 @@ h2 {
 }
 
 .carousel {
-    width: 100%;
-    margin: auto;
+    margin: 0 -12px;
 }
 
 .carousel-item img {
@@ -202,12 +231,6 @@ h2 {
     margin-top: 20px;
 }
 
-.col8 {
-    background-color: #f4f4f4;
-    padding: 13px;
-    border-radius: 15px;
-}
-
 button {
     background-color: #DC23D9;
     border: none;
@@ -226,13 +249,8 @@ button:hover {
     color: white;
 }
 
-#telefono1,
-#telefono2 {
+.datos-contacto {
     font-size: 24px;
-}
-
-#email {
-    font-size: 21px;
 }
 
 .linkedin-btn-hover:hover {
@@ -242,33 +260,33 @@ button:hover {
 .texto-h1-titulo,
 .pyo {
     text-align: center;
-    margin: 35px 0 20px 0 !important;
+    /* margin: 35px 0 20px 0 !important; */
     color: #DC23D9;
     font-family: "Poppins", sans-serif;
     font-weight: 100;
     font-style: normal;
 }
 
-.col8 .boton-copia {
+.boton-copia {
     color: #010101;
     font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-
-/* Boton del formulario enviar */
-
-.btn-rosa {
-    background-color: #DC23D9;
-    color: #fff;
-
-    border-color: #DC23D9;
-
+.contacto-body {
+    background-color: #f4f4f4;
+    border-radius: 1rem;
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    height: 25rem;
+    justify-content: space-evenly;
 }
 
-.btn-rosa:hover {
-    background-color: #DC23D9;
-    border-color: #DC23D9;
-
+.boton-copia button {
+    max-width: 5rem;
 }
 
 .cuadradocont {
@@ -276,6 +294,37 @@ button:hover {
     padding: 1px;
 }
 
-.container form {
-    margin-top: -40px;
+.icono-servicios {
+    width: 50px;
+}
+
+#boton-enviar,
+#boton-cerrar-modal-confirmacion {
+    background-color: #DC23D9;
+    border-color: #DC23D9;
+}
+
+#boton-enviar:hover,
+#boton-enviar:checked,
+#boton-cerrar-modal-confirmacion:hover,
+#boton-cerrar-modal-confirmacion:checked {
+    background-color: #b723dc;
+    border-color: #b723dc;
+}
+
+.logo-header {
+    height: 8rem;
+}
+
+#modal-confirmacion-form {
+    display: block;
+    background-color: #0077B6;
+    padding: 1rem;
+    display: absolute;
+    position: relative;
+}
+
+#confirmacion-form{
+    text-align: center;
+    /* margin-top: 2rem; */
 }
