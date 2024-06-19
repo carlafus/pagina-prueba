@@ -129,7 +129,7 @@ header .menu .c3:hover {
     .portafolio .galeria .contenedor-imagen {
         width: 97%;
     }
-    
+
     .carousel-margin {
         margin: 0px !important;
     }
@@ -329,7 +329,7 @@ button:hover {
     position: relative;
 }
 
-#confirmacion-form{
+#confirmacion-form {
     text-align: center;
     /* margin-top: 2rem; */
 }
@@ -380,7 +380,7 @@ button:hover {
     z-index: 99;
     background-color: #DC23D9 !important;
     border: #DC23D9 !important;
-  }
+}
 
 #back-to-top-btn:hover,
 #back-to-top-btn:checked {
